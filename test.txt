@@ -1,0 +1,174 @@
+Dinsdag 16/6 8::24-> LR
+Dinsdag 16/6 05:00-> R
+Dinsdag 16/6 3::11-> LR
+
+Maandag 15/6 23:50-> RL
+
+Zaterdag 13/6 3::46-> LR
+Zaterdag 13/6 3::46-> LR
+Zaterdag 13/6 00:20-> RL
+
+Vrijdag 12/6 12:00-> LR
+Vrijdag 12/6 09:00-> RL
+Vrijdag 12/6 07:00-> LR
+Vrijdag 12/6 03:30-> RL
+
+Donderdag 11/6 22:22-> LR
+Donderdag 11/6 20:30-> R
+Donderdag 11/6 19:30-> L
+Donderdag 11/6 16:30-> RL
+Donderdag 11/6 13:30-> LR
+Donderdag 11/6 10:30-> RL
+Donderdag 11/6 07:30-> L
+Donderdag 11/6 04:30-> RL
+Donderdag 11/6 00:45-> LR
+
+Woensdag 10/6 21:30-> L
+Woensdag 10/6 20:00-> R
+Woensdag 10/6 18:30-> LR
+Woensdag 10/6 15:30-> RL
+Woensdag 10/6 12:30-> LR
+Woensdag 10/6 10:00-> RL
+Woensdag 10/6 06:30-> LR
+Woensdag 10/6 03:00-> RL
+Woensdag 10/6 00:15-> LR
+
+Dinsdag 9/6 13:07-> RL
+Dinsdag 9/6 10:30-> L
+Dinsdag 9/6 09:00-> R
+Dinsdag 9/6 7::30-> LR
+Dinsdag 9/6 3::31-> RL
+
+Maandag 8/6 21:05-> RL
+Maandag 8/6 18:30-> LR
+Maandag 8/6 16:00-> RL
+Maandag 8/6 13:05-> LR
+Maandag 8/6 10:16-> RL
+Maandag 8/6 7::41-> LR
+Maandag 8/6 04:30-> RL
+Maandag 8/6 2::41-> LR
+
+Zondag 7/6 23:28-> RL
+Zondag 7/6 20:45-> LR
+Zondag 7/6 18:15-> RL
+Zondag 7/6 15:45-> LR
+Zondag 7/6 13:14-> RL
+Zondag 7/6 10:45-> LR
+Zondag 7/6 7::23-> RL
+Zondag 7/6 4::52-> LR
+Zondag 7/6 1::59-> RL
+
+Zaterdag 6/6 23:44-> LR
+Zaterdag 6/6 21:03-> RL
+Zaterdag 6/6 17:44-> LR
+Zaterdag 6/6 14:45-> RL
+Zaterdag 6/6 12:56-> LR
+Zaterdag 6/6 9::47-> RL
+Zaterdag 6/6 6::25-> LR
+Zaterdag 6/6 3::52-> RL
+Zaterdag 6/6 0::16-> LR
+
+Vrijdag 5/6 22:02-> RL
+Vrijdag 5/6 17:15-> LR
+Vrijdag 5/6 14:15-> RL
+Vrijdag 5/6 11:11-> LR
+Vrijdag 5/6 7::41-> RL
+Vrijdag 5/6 4::25-> LR
+Vrijdag 5/6 0::14-> RL
+
+Donderdag 4/6 21:58-> LR
+Donderdag 4/6 19:57-> RL
+Donderdag 4/6 16:55-> LR
+Donderdag 4/6 14:03-> RL
+Donderdag 4/6 12:00-> LR
+Donderdag 4/6 08:30-> LR
+Donderdag 4/6 5::24-> RL
+Donderdag 4/6 1::58-> LR
+
+Woensdag 3/6 21:17-> RL
+Woensdag 3/6 18:03-> LR
+Woensdag 3/6 14:30-> RL
+Woensdag 3/6 12:23-> LR
+Woensdag 3/6 9::00-> RL
+Woensdag 3/6 6::49-> LR
+Woensdag 3/6 3::59-> RL
+Woensdag 3/6 00:00-> RL
+
+
+
+Dinsdag 2/6 23:00-> LR
+Dinsdag 2/6 21:05-> LR
+Dinsdag 2/6 18:53-> RL
+Dinsdag 2/6 17:01-> LR
+Dinsdag 2/6 13:36-> RL
+Dinsdag 2/6 11:20-> LR
+Dinsdag 2/6 8::39-> RL
+Dinsdag 2/6 6::04-> L
+Dinsdag 2/6 05:00-> R
+Dinsdag 2/6 3::49-> LR
+Dinsdag 2/6 1::18-> RL
+
+Maandag 1/6 22:34-> LR
+Maandag 1/6 18:55-> RL
+Maandag 1/6 16:10-> LR
+Maandag 1/6 13:15-> RL
+Maandag 1/6 11:00-> LR
+Maandag 1/6 8::34-> RL
+Maandag 1/6 5::18-> LR
+Maandag 1/6 2::29-> RL
+
+Zondag 31/5 23:42-> LR
+Zondag 31/5 21:00-> RL
+Zondag 31/5 18:06-> LR
+Zondag 31/5 16:00-> RL
+Zondag 31/5 13:59-> LR
+Zondag 31/5 10:58-> RL
+Zondag 31/5 9::02-> LR
+Zondag 31/5 6::23-> RL
+Zondag 31/5 2::51-> LR
+
+Zaterdag 30/5 23:14-> RL
+Zaterdag 30/5 19:15-> LR
+Zaterdag 30/5 16:26-> RL
+Zaterdag 30/5 13:53-> LR
+Zaterdag 30/5 11:00-> RL
+Zaterdag 30/5 9::00-> LR
+Zaterdag 30/5 05:30-> L
+Zaterdag 30/5 4::04-> LR
+
+Vrijdag 29/5 23:44-> RL
+Vrijdag 29/5 21:30-> LR
+Vrijdag 29/5 18:31-> RL
+Vrijdag 29/5 15:30-> LR
+Vrijdag 29/5 13:15-> RL
+Vrijdag 29/5 11:00-> LR
+Vrijdag 29/5 07:44-> RL
+Vrijdag 29/5 5::10-> LR
+Vrijdag 29/5 01:40-> RL
+
+Donderdag 28/5 23:00-> L
+Donderdag 28/5 21:44-> LR
+Donderdag 28/5 19:30-> RL
+Donderdag 28/5 16:15-> LR
+Donderdag 28/5 13:10-> RL
+Donderdag 28/5 10:31-> LR
+Donderdag 28/5 7::41-> RL
+Donderdag 28/5 05:55-> L
+Donderdag 28/5 04:55-> R
+Donderdag 28/5 1::45-> LR
+
+
+Woensdag 27/5 21:15-> RL
+Woensdag 27/5 17:55-> LR
+Woensdag 27/5 15:44-> RL
+Woensdag 27/5 12:18-> LR
+Woensdag 27/5 9::37-> RL
+Woensdag 27/5 5::58-> LR
+Woensdag 27/5 2::53-> RL
+
+Dinsdag 26/5 22:37-> RL
+Dinsdag 26/5 21:25-> LR
+Dinsdag 26/5 18:45-> RL
+
+
+kus kus

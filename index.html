@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Buttons!!!</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <link rel="stylesheet" href="style.css" />
+    <meta http-equiv="refresh" content="60" >
+    <!-- <link rel="STYLESHEET" type="text/css" href="/style/jsc.css"> -->
+</head>
+
+<body>
+    <input id="time_field" type="text" pattern="\d*" style="height:30px;width:200px;font-size:22px;text-align:center;"  class="myButton">
+    <br>
+    <br>
+    <input id="L_button" type="button" style="height:100px;width:130px;font-size:22px;" class="myButton">
+    <input id="R_button" type="button" style="height:100px;width:130px;font-size:22px;" class="myButton">
+    <br>
+    <br>
+    <input id="LR_button" type="button" style="height:100px;width:130px;font-size:22px;" class="myButton">
+    <input id="RL_button" type="button" style="height:100px;width:130px;font-size:22px;" class="myButton">
+    <br>
+    <br>
+    <input id="flesje_button" type="button" style="height:50px;width:264px;font-size:16px;" class="myButton">
+    <br>
+    <br>
+    <input id="X_button" type="button" style="height:50px;width:264px;font-size:16px;" class="myButton">
+    <br>
+    <br>
+
+
+        <script language="javascript" type='text/javascript'>
+
+        temp = new Image();
+
+        var newDate = new Date();
+        var datetime = newDate.getHours()+":"+((newDate.getMinutes() < 10)?"0":"") +newDate.getMinutes();
+        document.getElementById("time_field").value = datetime;
+
+        var button = [];
+        button[0] = {Id : "L_button",      text : "L",      send_code : "L__"};
+        button[1] = {Id : "R_button",      text : "R",      send_code : "R__"};
+        button[2] = {Id : "LR_button",     text : "LR",     send_code : "LR_"};
+        button[3] = {Id : "RL_button",     text : "RL",     send_code : "RL_"};
+        button[4] = {Id : "flesje_button", text : "Flesje", send_code : "F__"};
+        button[5] = {Id : "X_button",      text : "Remove", send_code : "X__"};
+
+        button.forEach(function(button){
+            document.getElementById(button.Id).value = button.text;
+            document.getElementById(button.Id).onclick = function(){
+                time = document.getElementById("time_field").value;
+                temp.src = 'http://192.168.178.24:8080/?data=' + button.send_code + time;
+                document.setTimeout(document.getElementById('FrameID').contentWindow.location.reload(true),1500);
+            };
+        });
+
+        </script>
+<P>
+    <iframe id="FrameID" src="test.txt" width="260" height="800" border="0"></iframe> </P>
+</body>
+</html>

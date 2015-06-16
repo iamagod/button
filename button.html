@@ -1,0 +1,183 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+    <title>Buttons!!!</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="STYLESHEET" type="text/css" href="/style/jsc.css"> -->
+</head>
+
+<body>
+    <input id="L_button" type="button" style="height:100px;width:100px;font-size:22px;" class="myButton">
+    <input id="R_button" type="button" style="height:100px;width:100px;font-size:22px;" class="myButton">
+    <br>
+    <br>
+    <input id="LR_button" type="button" style="height:100px;width:100px;font-size:22px;" class="myButton">
+    <input id="RL_button" type="button" style="height:100px;width:100px;font-size:22px;" class="myButton">
+
+
+    <br>
+    <br>
+    <!-- L
+    <A href="http://192.168.178.24:8000/index.html" onMouseDown="return handleMDown_L()" onMouseUp="return handleMUp_L()">
+    <img name="jsbutton_L" src="L_UP.png" width="100" height="100" border="0" alt="L"></A>
+
+    <A href="http://192.168.178.24:8000/index.html" onMouseDown="return handleMDown_R()" onMouseUp="return handleMUp_R()">
+        <img name="jsbutton_R" src="R_UP.png" width="100" height="100" border="0" alt="R"></A>
+    <br>
+
+    <A href="http://192.168.178.24:8000/index.html" onMouseDown="return handleMDown_LR()" onMouseUp="return handleMUp_LR()">
+        <img name="jsbutton_LR" src="LR_UP.png" width="100" height="100" border="0" alt="LR"></A>
+    
+    <A href="http://192.168.178.24:8000/index.html" onMouseDown="return handleMDown_RL()" onMouseUp="return handleMUp_RL()">
+        <img name="jsbutton_RL" src="RL_UP.png" width="100" height="100" border="0" alt="RL"></A>
+    <br> -->
+
+    <!-- Remove -->
+    <A href="http://192.168.178.24:8000/index.html" onMouseDown="return handleMDown_Remove()" onMouseUp="return handleMUp_Remove()">
+        <img name="jsbutton_Remove" src="Remove_UP.png" width="204" height="100" border="0" alt="Remove"></A>
+        <script language="javascript" type='text/javascript'>
+
+        temp = new Image();
+
+
+        document.getElementById("L_button").value = "L";
+        document.getElementById("L_button").onclick = function(){
+            temp.src = 'http://192.168.178.24:8080/?data=L';
+            window.location.reload()
+            console.log("L pressed");
+            console.log(document.getElementById("L_button").value);
+            if (document.getElementById("L_button").value === "L"){
+                document.getElementById("L_button").value = "L Pressed";
+            }else if (document.getElementById("L_button").value === "L Pressed"){
+                document.getElementById("L_button").value = "L";
+            }
+        };
+
+        document.getElementById("R_button").value = "R";
+        document.getElementById("R_button").onclick = function(){
+            temp.src = 'http://192.168.178.24:8080/?data=R';
+            window.location.reload()
+            console.log("R pressed");
+            console.log(document.getElementById("R_button").value);
+            if (document.getElementById("R_button").value === "R"){
+                document.getElementById("R_button").value = "R Pressed";
+            }else if (document.getElementById("R_button").value === "R Pressed"){
+                document.getElementById("R_button").value = "R";
+            }
+        };
+
+        document.getElementById("LR_button").value = "LR";
+        document.getElementById("LR_button").onclick = function(){
+            temp.src = 'http://192.168.178.24:8080/?data=LR';
+            window.location.reload()
+            console.log("LR pressed");
+            console.log(document.getElementById("LR_button").value);
+            if (document.getElementById("LR_button").value === "LR"){
+                document.getElementById("LR_button").value = "LR Pressed";
+            }else if (document.getElementById("LR_button").value === "LR Pressed"){
+                document.getElementById("LR_button").value = "LR";
+            }
+        };
+
+        document.getElementById("RL_button").value = "RL";
+        document.getElementById("RL_button").onclick = function(){
+            temp.src = 'http://192.168.178.24:8080/?data=RL';
+            window.location.reload()
+            console.log("RL pressed");
+            console.log(document.getElementById("RL_button").value);
+            if (document.getElementById("RL_button").value === "RL"){
+                document.getElementById("RL_button").value = "RL Pressed";
+            }else if (document.getElementById("RL_button").value === "RL Pressed"){
+                document.getElementById("RL_button").value = "RL";
+            }
+        };
+
+/*
+        L_upImage = new Image();
+        L_upImage.src = "L_UP.png";
+        L_downImage = new Image();
+        L_downImage.src = "L_DOWN.png";
+
+        R_upImage = new Image();
+        R_upImage.src = "R_UP.png";
+        R_downImage = new Image();
+        R_downImage.src = "R_DOWN.png";
+
+        LR_upImage = new Image();
+        LR_upImage.src = "LR_UP.png";
+        LR_downImage = new Image();
+        LR_downImage.src = "LR_DOWN.png";
+
+        RL_upImage = new Image();
+        RL_upImage.src = "RL_UP.png";
+        RL_downImage = new Image();
+        RL_downImage.src = "RL_DOWN.png";
+
+        Remove_upImage = new Image();
+        Remove_upImage.src = "Remove_UP.png";
+        Remove_downImage = new Image();
+        Remove_downImage.src = "Remove_DOWN.png";
+
+
+
+        function handleMDown_L(){
+            document.images["jsbutton_L"].src = L_downImage.src;
+            temp.src = 'http://192.168.178.24:8080/?data=L';
+            return true;
+        }
+        function handleMUp_L(){
+            document.images["jsbutton_L"].src= L_upImage.src;
+            return true;
+        }
+
+        function handleMDown_R(){
+            document.images["jsbutton_R"].src = R_downImage.src;
+            temp.src = 'http://192.168.178.24:8080/?data=R';
+            return true;
+        }
+        function handleMUp_R(){
+            document.images["jsbutton_R"].src= R_upImage.src;
+            return true;
+        }
+
+        function handleMDown_LR(){
+            document.images["jsbutton_LR"].src = LR_downImage.src;
+            temp.src = 'http://192.168.178.24:8080/?data=LR';
+            return true;
+        }
+        function handleMUp_LR(){
+            document.images["jsbutton_LR"].src= LR_upImage.src;
+            return true;
+        }
+
+        function handleMDown_RL(){
+            document.images["jsbutton_RL"].src = RL_downImage.src;
+            temp.src = 'http://192.168.178.24:8080/?data=RL';
+            return true;
+        }
+        function handleMUp_RL(){
+            document.images["jsbutton_RL"].src= RL_upImage.src;
+            return true;
+        }
+*/
+        function handleMDown_Remove(){
+            document.images["jsbutton_Remove"].src = Remove_downImage.src;
+            temp.src = 'http://192.168.178.24:8080/?data=Remove';
+            return true;
+        }
+        function handleMUp_Remove(){
+            document.images["jsbutton_Remove"].src= Remove_upImage.src;
+            return true;
+        }
+        </script>
+<P>
+    <iframe src="test.txt" width="220" height="800" border="0"></iframe> </P>
+</body>
+</html>
